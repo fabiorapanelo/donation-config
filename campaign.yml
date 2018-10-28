@@ -1,0 +1,6 @@
+server:
+  port: 8888
+
+donation:
+  campaign:
+    message: Fabio Rapanelo :)

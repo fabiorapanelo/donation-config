@@ -10,6 +10,6 @@ zuul:
   routes:
     campaign:
         path: /campaign/**
-        serviceId: account-service
+        serviceId: campaign
         stripPrefix: false
         sensitiveHeaders:

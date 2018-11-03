@@ -1,2 +1,7 @@
 server:
   port: 8080
+
+ zuul:
+  routes:
+    authentication:
+      sensitiveHeaders: Cookie,Set-Cookie

@@ -4,3 +4,18 @@ server:
 donation:
   campaign:
     message: Fabio Rapanelo :)
+
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://35.184.129.237:27017/donation
+
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              MongoTemplate: DEBUG
